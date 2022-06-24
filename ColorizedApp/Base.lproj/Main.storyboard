@@ -11,7 +11,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ColorizedApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -38,9 +37,6 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Q2f-ev-Ki9">
                                         <rect key="frame" x="119" y="0.0" width="257" height="31"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="253" id="KDm-oN-1r4"/>
-                                        </constraints>
                                         <connections>
                                             <action selector="changeGreenSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="8lr-9n-Bt5"/>
                                         </connections>
@@ -64,9 +60,6 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="q5G-uW-CXp">
                                         <rect key="frame" x="119" y="0.0" width="257" height="31"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="253" id="1dW-72-yFB"/>
-                                        </constraints>
                                         <connections>
                                             <action selector="changeRedSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="MMi-hu-dvD"/>
                                         </connections>
@@ -90,9 +83,6 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="38M-ax-Slh">
                                         <rect key="frame" x="119" y="0.0" width="257" height="31"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="253" id="JJR-h5-m20"/>
-                                        </constraints>
                                         <connections>
                                             <action selector="changeBlueSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="hNw-P8-rar"/>
                                         </connections>
@@ -108,12 +98,15 @@
                             <constraint firstItem="Dhe-BO-tQD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ntw-Wi-shn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XIk-T1-sce" secondAttribute="trailing" constant="20" id="PUI-vF-MCE"/>
                             <constraint firstItem="XIk-T1-sce" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25558" id="XI5-1x-mg9"/>
+                            <constraint firstItem="q5G-uW-CXp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.611111" id="grK-xl-LlG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LM7-OJ-Fk3" secondAttribute="trailing" constant="20" id="icY-hR-mk9"/>
                             <constraint firstItem="LM7-OJ-Fk3" firstAttribute="top" secondItem="XIk-T1-sce" secondAttribute="bottom" constant="85" id="jAt-gm-FUf"/>
+                            <constraint firstItem="Q2f-ev-Ki9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.611111" id="kUu-DC-d0a"/>
                             <constraint firstItem="Dhe-BO-tQD" firstAttribute="top" secondItem="uc9-do-x74" secondAttribute="bottom" constant="25" id="lK4-47-Ofa"/>
                             <constraint firstItem="uc9-do-x74" firstAttribute="top" secondItem="LM7-OJ-Fk3" secondAttribute="bottom" constant="25" id="laQ-sQ-gJY"/>
                             <constraint firstItem="LM7-OJ-Fk3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lj2-dj-eym"/>
                             <constraint firstAttribute="trailing" secondItem="Dhe-BO-tQD" secondAttribute="trailing" constant="20" id="llL-Er-6yh"/>
+                            <constraint firstItem="38M-ax-Slh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.611111" id="nLa-qV-LON"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uc9-do-x74" secondAttribute="trailing" constant="20" id="nfQ-ry-LED"/>
                             <constraint firstItem="XIk-T1-sce" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="paL-lE-ol1"/>
                         </constraints>
@@ -128,6 +121,7 @@
                         <outlet property="redValueLabel" destination="qbe-5x-tf4" id="ZLT-aA-KC0"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="65.625"/>
         </scene>
